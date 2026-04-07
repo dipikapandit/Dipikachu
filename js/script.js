@@ -75,7 +75,7 @@
     // helper to set theme; if initial=true then swap href without animation
     function applyTheme(mode, initial = false) {
       const isLight = mode === 'light';
-      const href = isLight ? '/css/light.css' : '/css/dark.css';
+      const href = isLight ? 'css/light.css' : 'css/dark.css';
 
       if (!themeLink) {
         document.body.classList.toggle('light', isLight);
@@ -104,7 +104,7 @@
     } else {
       // no saved theme — ensure default stylesheet set to dark quietly
       if (themeLink && !themeLink.href.includes('dark.css') && !themeLink.href.includes('light.css')) {
-        themeLink.href = '/css/dark.css';
+        themeLink.href = 'css/dark.css';
       }
       if (toggle) toggle.textContent = '☀️';
     }
