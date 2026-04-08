@@ -490,7 +490,7 @@
       display:flex; justify-content:space-between; align-items:center;
     }
     .ftext { font-size:.72rem; color:var(--text-dim); font-style:italic; line-height:1.9; }
-    .fmark { font-size:.68rem; color:rgba(253,230,138,.25); }
+    .fmark { font-size:.72rem; color:var(--text-mid) }
 
     /* ══════════════════════════════════════════
        RESPONSIVE

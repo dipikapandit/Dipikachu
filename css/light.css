@@ -521,7 +521,7 @@
       position:relative; z-index:1;
     }
     .ftext { font-size:.72rem; color:var(--text-dim); font-style:italic; line-height:1.9; }
-    .fmark { font-size:.68rem; color:rgba(245,158,11,.5); }
+    .fmark { font-size:.72rem; color:var(--text-mid) }
 
     /* ══════════════════════════════════════════
        RESPONSIVE
