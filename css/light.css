@@ -301,7 +301,7 @@
       position:relative; overflow:hidden;
     }
     .wcard:nth-child(1) .wimg { aspect-ratio:9/16; }
-    .wcard:nth-child(2) .wimg { aspect-ratio:1/1; }
+    .wcard:nth-child(2) .wimg { aspect-ratio:4/5; }
     .wcard:nth-child(3) .wimg { aspect-ratio:4/5; }
     .wcard:nth-child(4) .wimg { aspect-ratio:16/9; }
     .wcard:nth-child(5) .wimg { aspect-ratio:4/5; }
